@@ -1,3 +1,158 @@
-*{
-    font-family: sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.Firstpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #e9b24d;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-height: 100vh; 
+    overflow: visible;
+   
+    
+}
+    
+.logo{
+    flex-grow: 2;
+}
+.logo img{
+    width: 100px;
+    height: 100px; 
+    
+}
+.text {
+    display: flex; 
+    gap: 10px;
+    align-items: center;
+}
+.text div{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+
+    
+
+}
+.text div:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); 
+}
+.Push {
+    flex-wrap: wrap;
+    flex-basis: 100%; 
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.Mono {
+    flex-basis: 60%; 
+    max-width: 50vw; 
+    font-size: 28px;
+    line-height: 1.5;
+    padding: 20px;
+}
+.Paste {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    
+}
+.Paste  img { 
+  flex-basis: 60%;
+  width: 400px;
+  height: 400px;
+  margin-left: 90px;
+  margin-top: -200px;
+  padding:  20px;
+}
+.Secondpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw; 
+    height: 100vh; 
+    flex-wrap: wrap;
+
+}
+.doosh{
+    
+    font-size: 25px;
+    font-weight: bold; 
+    color: black;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: lightgray; 
+    border-radius: 10px;
+}
+
+.name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.thirdpage {
+    display: flex;
+    background-color: rgb(231, 188, 107);
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.putish {
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Skadoosh {
+    padding: 50px;
+    font-size: 30px;
+  
+}
+.fourthpage {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    gap: 20px;
+}
+.fourthpage div {
+    border-color: chartreuse;
+    border: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
