@@ -145,14 +145,46 @@ html, body {
 }
 .fourthpage {
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(241, 225, 81);
     justify-content: center;
     gap: 20px;
 }
 .fourthpage div {
-    border-color: chartreuse;
+    align-items: center; 
+    padding: 20px;
     border: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    background-color: #e9b24d;
+    margin: 15px;
+    font-size: 30px;
+}
+.order {
+    margin-bottom: -20px;
+    margin: 3px;
+    padding: 10px 20px; /* Adjust padding for better balance */
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    width: auto;
+    height: 50px; /* Adjust height */
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    
+}
+.order:hover {
+   
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); 
+}
+.copyright {
+    display: flex;
+  background-color: antiquewhite;
+  justify-content: center;
 }
